@@ -38,30 +38,30 @@
 	<version>6.0.3-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>JPetStore</name>
-	<url>http://www.mybatis.org</url>
+<!-- 	<name>JPetStore</name> -->
+<!-- 	<url>http://www.mybatis.org</url> -->
 
-	<scm>
-		<url>http://github.com/mybatis/jpetstore-6</url>
-		<connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<issueManagement>
-		<system>GitHub Issue Management</system>
-		<url>https://github.com/mybatis/jpetstore/issues</url>
-	</issueManagement>
-	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/mybatis/jpetstore-6</url>
-	</ciManagement>
-	<distributionManagement>
-		<site>
-			<id>gh-pages</id>
-			<name>Mybatis GitHub Pages</name>
-			<url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-		</site>
-	</distributionManagement>
+<!-- 	<scm> -->
+<!-- 		<url>http://github.com/mybatis/jpetstore-6</url> -->
+<!-- 		<connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection> -->
+<!-- 		<developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection> -->
+<!-- 		<tag>HEAD</tag> -->
+<!-- 	</scm> -->
+<!-- 	<issueManagement> -->
+<!-- 		<system>GitHub Issue Management</system> -->
+<!-- 		<url>https://github.com/mybatis/jpetstore/issues</url> -->
+<!-- 	</issueManagement> -->
+<!-- 	<ciManagement> -->
+<!-- 		<system>Travis CI</system> -->
+<!-- 		<url>https://travis-ci.org/mybatis/jpetstore-6</url> -->
+<!-- 	</ciManagement> -->
+<!-- 	<distributionManagement> -->
+<!-- 		<site> -->
+<!-- 			<id>gh-pages</id> -->
+<!-- 			<name>Mybatis GitHub Pages</name> -->
+<!-- 			<url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url> -->
+<!-- 		</site> -->
+<!-- 	</distributionManagement> -->
 
 	<dependencies>
 		<dependency>
@@ -69,6 +69,9 @@
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
+
+		
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
